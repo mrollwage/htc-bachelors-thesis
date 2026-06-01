@@ -1,0 +1,5 @@
+torch==2.10.0
+transformers==5.0.0
+optuna==4.8.0
+scikit-learn==1.6.1
+datasets==4.0.0
