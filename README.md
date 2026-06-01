@@ -8,6 +8,7 @@ Die Experimente und Modelle wurden in der folgenden Software-Umgebung entwickelt
 * **Python:** 3.12.13
 * **PyTorch:** 2.10.0 (+ CUDA)
 * **Transformers (Hugging Face):** 5.0.0
+* **Datasets (Hugging Face):** 4.0.0
 * **Optuna:** 4.8.0
 * **Scikit-learn:** 1.6.1
 
