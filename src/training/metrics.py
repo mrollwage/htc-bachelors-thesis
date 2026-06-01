@@ -95,8 +95,9 @@ def compute_hierarchical_precision_recall(
         hR = |predicted_path ∩ true_path| / |true_path|
         hF = 2 * hP * hR / (hP + hR)
 
-    Both paths have the same length (num_levels), so hP and hR only
-    differ when predictions partially overlap with the true path.
+    Both paths have length L (one node per level), so per sample
+    hP_i = hR_i = |intersection| / L. Consequently hP = hR = hF here;
+    they would only diverge for variable-length paths (asymmetric trees).
 
     Args:
         predictions: Predicted label indices, shape (n_samples, num_levels).
